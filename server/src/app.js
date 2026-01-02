@@ -1,5 +1,6 @@
 import express from 'express'
 import cors from 'cors'
+import {userRouter} from "./route/user.route.js"
 
 
 const app= express()
@@ -10,5 +11,5 @@ credentials:true
 app.use(express.json())
 
 
-
+app.use('/api/v1',userRouter)
 export default app
