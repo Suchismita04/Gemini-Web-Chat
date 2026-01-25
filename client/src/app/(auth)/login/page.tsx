@@ -1,11 +1,13 @@
+"use client"
+import LoginPage from "@/src/component/auth/LoginPage";
 
 
 
-export default function LogIn(){
+export default function LogIn() {
     return (
         <>
-        
-        <p>Hello</p>
+
+            <LoginPage />
         </>
     )
 }

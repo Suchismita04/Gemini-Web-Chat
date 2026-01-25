@@ -1,3 +1,5 @@
+"use client"
+import RegisterPage from "@/src/component/auth/RegisterPage";
 
 
 
@@ -7,7 +9,7 @@ export default function Register() {
         <>
       
         
-        <p>Hello from register</p>
+      <RegisterPage/>
 
         </>
     )
