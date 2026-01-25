@@ -49,7 +49,7 @@ const registerUser = async (req, res) => {
 // user logIn
 const logInUser = async (req, res) => {
   const { email, password } = req.body;
-  console.log(email,password)
+  // console.log(email,password)
 
   try {
     if (!email || !password) {
